@@ -1,4 +1,3 @@
 sample_bay = ['Basalt', 'Silica', 'Iron', 'Dust']
-print(sample_bay[0])
-print(sample_bay[-1])
-print(len(sample_bay))
+for samples in range(len(sample_bay)):
+    print("Transmitting Data For:",sample_bay[samples])
