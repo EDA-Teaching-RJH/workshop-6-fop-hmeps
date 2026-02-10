@@ -1,6 +1,6 @@
-rover_status = {'Battery': 85,
-                'Heater': 'On',
-                'Camera': 'Standby',
-                'Speed' : 5,
-                }
-print(rover_status)
+mission_log = [
+    {"Site": "Crater A", "Radiation": "Low", "Water": False},
+    {"Site": "Dune B", "Radiation": "High", "Water": True}
+    ]
+for site in range(1):
+    print(mission_log)
